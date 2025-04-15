@@ -1,0 +1,25 @@
+{
+  "active_provider": "deepseek",
+  "providers": {
+    "deepseek": {
+      "api_key": "sk-45b1f23aa71d423d90645988ef3d1d22",
+      "model_name": "deepseek-chat",
+      "api_base": "https://api.deepseek.com/v1"
+    },
+    "gemini": {
+      "api_key": "sk-qfboVEw8DjeVXAmB2e92E2991bCf4469B908943a1a9a9b9f",
+      "model_name": "gemini-2.5-pro-exp-03-25",
+      "api_base": "https://generativelanguage.googleapis.com"
+    },
+    "openai": {
+      "api_key": "",
+      "model_name": "gpt-4",
+      "api_base": "https://api.openai.com/v1"
+    }
+  },
+  "common_settings": {
+    "temperature": 0.7,
+    "max_tokens": 800,
+    "data_dir": "data"
+  }
+} 
